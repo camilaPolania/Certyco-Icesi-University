@@ -1,0 +1,252 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+// ----------------  Creación Solicitud  -----------------
+.navIcesi{
+    background-color: #283964;
+    margin: 0px,0px,0px;
+}
+
+.logoCertyco{
+    height: 35%;
+    width: 35%;
+}
+
+.infoUserIcesi{
+    color: white;
+    margin: 0px,0px,0px,0px;
+    margin-top: 16px;
+    font-size: 15px;
+}
+
+.iconUserIcesi{
+    color: white;
+}
+
+.userSimon:hover{
+    color: #ffffff;
+}
+
+.breadcrumbIcesi{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+.bcIcesi{
+    font-size: 12pt;
+    color:  rgb(0, 0, 0);
+}
+
+.backIcon{
+    margin-right: 10px;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 25pt;
+    color: hsl(210, 73%, 26%); 
+
+}
+
+hr{
+
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+
+}
+
+.seccion_cs{
+    margin-top: 25px;
+}
+
+.card_cs{
+    background-color: #f5f5f5c7;
+    border-radius: 10px;
+    border-color: #ffffff;
+}
+
+.certificados_cs{
+    margin-top: 50px;
+}
+
+.certificados_btn{
+    width: 150px;
+    height: 150px;
+}
+
+.certificadosIcono{
+    width: 50%;
+    height: 50%;
+    border-color: #283964;
+}
+
+// -------------- Inventario ---------------------
+
+.formCertyco{
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f3f3f379;
+}
+
+.btnInventario{
+    border-color:#283964; ;
+}
+.btnInventario:hover{
+    background-color: #283964;
+    color: white;
+}
+
+.tableInv{
+    margin-top: 40px;
+}
+
+// -----------------  FOOTER  --------------------------
+footer{
+    max-width: 100%;
+    background-color:#283964;
+    margin-top: 100px;
+}
+
+.footerIcesi_logo{
+    width: 40%;
+    height: 40%;
+    margin-top: 10px;
+}
+
+.footerStyle{
+    margin-left: 15px;
+}
+
+.footer_info{
+    margin-top: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.location{
+    margin-top: 5px;
+}
+
+.follow{
+    font-size: 16px;
+}
+
+.socialMedia{
+    color: white;
+}
+
+.socialMedia:hover{
+    color: #283964;
+}
+
+.btnSocialMedia{
+    background-color:#1a2950;
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.contact{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.infoIcesiFooter{
+    margin-top: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-top: 15px;
+}
+
+.infoIcesiFt{
+    margin-top: 22px;
+}
+
+.imgSyri{
+    margin-bottom: 10px;
+}
+
+// ------------- Menu Alumno -------------
+
+.menuAlumno{
+  height: 400px;
+  max-width: 100%;
+  padding: 30px;
+  
+}
+
+.menuTittle{
+    color: #000000;
+    font-weight: 700;
+}
+
+.menuOptions{
+    height: 200px;
+}
+
+.btnUser{
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 200px;
+    height: 150px;
+    background-color: #ffffff;
+    color: #283964;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.07);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.07);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btnUser:hover {
+    background-color: #283964;
+    box-shadow: 0px 15px 20px #28396463;
+    color: #fff;
+    font-weight: 500;
+    transform: translateY(-7px);
+  }
+
+.btnName{
+    margin-top: 10px;
+}
+
+.btnAdmi{
+    width: 250px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+// ------------- Menu Colaborador -------------
+
+.menuColaborador{
+    max-width: 100%;
+    height: 400px;
+    padding: 30px;
+}
+
+
+//-------------- Responsive -------------------
+
+@media (max-width: 600px) {
+    .infoUserIcesi {
+        margin-left: 25px;
+    }
+
+    .footerIcesi_logo{
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Creación Solicitud</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+    integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./style/styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HEADER-->
+  {{>nav}}
+
+  <!-- BREADCRUMB -->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb breadcrumbIcesi ">
+      <li class="breadcrumb-item"><a class="breadcrumbItem bcIcesi" href="#"> <i class="fas fa-arrow-left backIcon"></i>
+          Menú inicial</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Menú de gestion</li>
+      <li class="breadcrumb-item active" aria-current="page">Crear solicitud</li>
+    </ol>
+  </nav>
+
+  <!-- CREACIÓN SOLICITUD -->
+  <div class="container">
+    <div class="d-flex justify-content-between p-2 bd-highlight">
+      <h1 class="icesiTittles">Creación Solicitud</h1>
+    </div>
+    <hr>
+    <div class="seccion_cs">
+      <div class="card card_cs">
+        <div class="card-body">
+          <form>
+            <div class="form-row d-flex justify-content-between">
+              <div class="form-group col-md-4">
+                <label for="inputName">Nombre</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Escribir nombre">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="inputCode">Código</label>
+                <input type="text" class="form-control" id="inputCode" placeholder="Ecribir código">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="inputID">Documento ID</label>
+                <input type="text" class="form-control" id="inputID" placeholder="Ecribir documento ID">
+              </div>
+            </div>
+
+            <div class="form-row d-flex justify-content-between">
+              <div class="form-group col-md-4">
+                <label for="inputState">Modalidad</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Selecciona una modalidad</option>
+                  <option>Pregrado</option>
+                  <option>Posgrado</option>
+                </select>
+              </div>
+              <div class="form-group col-md-3">
+                <label for="inputState">Tipo certificado</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Selecciona tipo de certificado</option>
+                  <option>Notas</option>
+                  <option>Estudios</option>
+                  <option>Grado u otros</option>
+                </select>
+              </div>
+              <div class="form-group col-md-3">
+
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="section d-flex justify-content-around certificados_cs">
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn btn-outline-info certificados_btn"><img class="certificadosIcono"
+                src="./img/iconoCertiAzul.png"><br> Certificado pregado notas</button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-outline-info certificados_btn"><img class="certificadosIcono"
+                src="./img/iconoCertiAzul.png"><br> Certificado pregado estudios</button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-outline-info certificados_btn"><img class="certificadosIcono"
+                src="./img/iconoCertiAzul.png"><br> Otros certificado pregado</button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-outline-info certificados_btn"><img class="certificadosIcono"
+                src="./img/iconoCertiAzul.png"><br> Certificado posgrado notas</button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-outline-info certificados_btn"><img class="certificadosIcono"
+                src="./img/iconoCertiAzul.png"><br> Certificado posgrado estudios</button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-outline-info certificados_btn"><img class="certificadosIcono"
+                src="./img/iconoCertiAzul.png"> <br>Otros certificado posgrado</button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  {{>footer}}
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
